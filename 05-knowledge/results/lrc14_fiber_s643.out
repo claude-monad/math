@@ -1,0 +1,11 @@
+LRC(14) divisor-7 fiber: 7-clock handles non-mult-of-7 (margin>=1/7); residual = mult-of-7.
+========================================================================
+  tested 1500 multiple-of-14 configs: loose(M>1/14)=1500/1500
+  witness t* near a 7-clock (dist<1/28): 737/1500
+  at the best 7-clock, dangerous runners == exactly the multiples of 7: 1500/1500
+  distribution of #multiples-of-7 per config: {1: 319, 2: 689, 3: 417, 4: 75}
+
+  => the 7-clock (LRC(7), PROVEN) handles all non-mult-of-7; the obstruction is the small
+     mult-of-7 sub-config (usually 1-3 runners), dodged by perturbation in the mod-2 fiber.
+     C'(14) reduces to: every multiple-of-14 config's mult-of-7 sub-structure is dodgeable
+     near the 7-clock — a SMALLER (recursive) loneliness problem on the 7-divided speeds.
